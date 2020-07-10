@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+       body{
+         width: 100%;
+         background-color: #dddddd;
+       } 
+      div.nav-bar ul li{
+        display: inline;
+        border: 2px solid white;
+        margin: 0;
+        padding: 0;
+        background-color:orange;
+        overflow: hidden;
+        }
+        a:hover{
+          background-color: #000;
+          color: white;
+        }
+        ul{
+          color: black;
+          list-style: none;
+        }
+        .list-1 li{
+          list-style-type: upper-roman;
+        }
+        .list-2 li{
+          list-style-image: url('img/smiley.gif');
+        }
+        .list-3 li{
+          display: inline;
+          border: 1px solid black;
+          color: black;
+        }
+        .sublist{
+          display: none;
+          background-color: yellowgreen;
+          
+        }
+      .sublist:hover{
+        display: block;
+        }
+      ol{
+          color: green;
+        }
+        div.list-4 {
+          position: relative;
+          width: 400px;
+          height: 300px;
+          border: 3px solid #73AD21;
+          } 
+
+        div.list-5 {
+          position: absolute;
+          top: 80px;
+          right: 0;
+          width: 200px;
+          height: 160px;
+          border: 3px solid #73AD21;
+          background-color: wheat;
+          
+        }
+        
+    </style>
+  </head>
+
+  <body>
+    <div class="nav-bar">
+      
+        
+          <ul>
+            <li><a href="#">List One</a></li>
+            <li><a href="#">List two</a></li>
+            <li><a href="#">List three</a></li>
+            <li><a href="#">List four</a></li>
+            <li><a href="#">List five</a></li>
+          </ul>
+        
+      
+    </div>
+      <div class="list-1">
+    <ul>
+      <li>Item One</li>
+      <li>Item Two</li>
+      <li>Item Three</li>
+      <li>Item Four</li>
+      <li>Item Five</li>
+      <li>Item Six</li>
+      <li>Item Seven</li>
+      <li>Item Eight</li>
+    </ul></div>
+<div class="list-2">
+    <ul>
+      <li>Item One</li>
+      <li>Item Two</li>
+      <li>Item Three</li>
+      <li>Item Four</li>
+      <li>Item Five</li>
+      <li>Item Six</li>
+      <li>Item Seven</li>
+      <li>Item Eight</li>
+    </ul>
+</div>
+<div class="list-3">
+    <ul>
+      <li>Item One</li>
+      <li>Item Two</li>
+      <li>Item Three</li>
+      <li>Item Four</li>
+      <li>Item Five</li>
+      <li>Item Six</li>
+      <li>Item Seven</li>
+      <li class="sublist">Item Eight</li>
+    </ul>
+</div>
+<div class="list-4">
+    <ol>
+      <li>Item One</li>
+      <li>Item Two</li>
+      <li>Item Three</li>
+      <li>Item Four</li>
+      <li>Item Five</li>
+      <li>Item Six</li>
+      <li>Item Seven</li>
+      <li>Item Eight</li>
+    </ol>
+<div class="list-5">
+    <ol>
+      <li>Item One</li>
+      <li>Item Two</li>
+      <li>Item Three</li>
+      <li>Item Four</li>
+      <li>Item Five</li>
+      <li>Item Six</li>
+      <li>Item Seven</li>
+      <li>Item Eight</li>
+    </ol>
+    </div>
+    
+  </body>
+</html>

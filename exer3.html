@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <style>
+      body {
+        background-color: cornsilk;
+      }
+      h1{
+          text-align: center;
+          font-family: Arial;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        margin: 15px 0;
+        
+        
+      }
+      table, tr,
+      th,
+      td {
+        border: 1px solid black;
+        height: 30px;
+        text-align: center;
+        
+    
+      }
+      thead {
+        background-color: darkcyan;
+        color: white;
+      }
+      tfoot{
+          background-color: darkcyan;
+        color: white;
+        }
+        tr:nth-child(even){
+            background-color: #ffffff;
+        }
+      
+
+    </style>
+  </head>
+  <body>
+      <h1>Income and Expense CSS Tuitorial</h1>
+    <div>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Season</th>
+            <th>Month</th>
+            <th>Income</th>
+            <th colspan="3">Expense</th>
+            <th>Other expense</th>
+            <th>Saving</th>
+            <th>% Balance</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style=>
+            <td rowspan="3" style="background-color: #dddddd;">Winter</td>
+            <td>January</td>
+            <td>$5000</td>
+            <td>$1000</td>
+            <td>$1000</td>
+            <td>$1500</td>
+
+            <td>$1000</td>
+            <td>$500</td>
+            <td>10%</td>
+          </tr>
+          <tr>
+            <td>February</td>
+            <td>$5000</td>
+            <td>$2500</td>
+            <td></td>
+            <td>$1000</td>
+
+            <td>$1000</td>
+            <td>$500</td>
+            <td>10%</td>
+          </tr>
+          <tr>
+            <td>March</td>
+            <td>$5000</td>
+            <td>$1500</td>
+            <td>$1000</td>
+            <td>$1000</td>
+            <td>$1000</td>
+            <td>$500</td>
+            <td>10%</td>
+          </tr>
+          <tr>
+            <td rowspan="3" style="background-color: #dddddd;">Spring</td>
+            <td>April</td>
+            <td>$5000</td>
+            <td>$1500</td>
+            <td>$2500</td>
+            <td>$500</td>
+            <td>$1000</td>
+            <td>$500</td>
+            <td>10%</td>
+          </tr>
+          <tr>
+            <td>May</td>
+            <td>$5000</td>
+            <td>$1000</td>
+            <td>$1500</td>
+            <td>$1000</td>
+            <td>$1000</td>
+            <td>$500</td>
+            <td>10%</td>
+          </tr>
+          <tr>
+            <td>June</td>
+            <td>$5000</td>
+            <td>$1500</td>
+            <td>$2000</td>
+            <td>$1000</td>
+            <td>$1000</td>
+            <td>$500</td>
+            <td>10%</td>
+          </tr>
+          <tr>
+            <td rowspan="3" style="background-color: #dddddd;">Summer</td>
+            <td>July</td>
+            <td>$5000</td>
+            <td>$1500</td>
+            <td>$1000</td>
+            <td>$1000</td>
+            <td>$1000</td>
+            <td>$500</td>
+            <td>10%</td>
+          </tr>
+          <tr>
+            <td>August</td>
+            <td>$5000</td>
+            <td>$1000</td>
+            <td>$2500</td>
+            <td></td>
+            <td>$1000</td>
+            <td>$500</td>
+            <td>10%</td>
+          </tr>
+          <tr>
+            <td>September</td>
+            <td>$5000</td>
+            <td>$1500</td>
+            <td>$2000</td>
+            <td>$0</td>
+            <td>$1000</td>
+            <td>$500</td>
+            <td>10%</td>
+          </tr>
+          <tr>
+            <td rowspan="3" style="background-color: #dddddd;">fall</td>
+            <td>October</td>
+            <td>$5000</td>
+            <td>$1000</td>
+            <td></td>
+            <td>$2500</td>
+            <td>$1000</td>
+            <td>$500</td>
+            <td>10%</td>
+          </tr>
+          <tr>
+            <td>November</td>
+            <td>$5000</td>
+            <td>$2500</td>
+            <td>$1000</td>
+            <td>$</td>
+            <td>$1000</td>
+            <td>$500</td>
+            <td>10%</td>
+          </tr>
+          <tr>
+            <td>December</td>
+            <td>$5000</td>
+            <td>$1000</td>
+            <td></td>
+            <td>$2500</td>
+            <td>1000</td>
+            <td>500</td>
+            <td>10%</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="9">This is income and expenditure CSS tuitorial</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </body>
+</html>
